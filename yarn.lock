@@ -1676,7 +1676,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chainsafe/metamask-polkadot-adapter@workspace:^, @chainsafe/metamask-polkadot-adapter@workspace:packages/adapter":
+"@chainsafe/metamask-polkadot-adapter, @chainsafe/metamask-polkadot-adapter@workspace:packages/adapter":
   version: 0.0.0-use.local
   resolution: "@chainsafe/metamask-polkadot-adapter@workspace:packages/adapter"
   dependencies:
@@ -1691,7 +1691,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@chainsafe/metamask-polkadot-types@workspace:^, @chainsafe/metamask-polkadot-types@workspace:packages/types":
+"@chainsafe/metamask-polkadot-types, @chainsafe/metamask-polkadot-types@workspace:packages/types":
   version: 0.0.0-use.local
   resolution: "@chainsafe/metamask-polkadot-types@workspace:packages/types"
   dependencies:
@@ -1703,7 +1703,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@chainsafe/polkadot-snap@workspace:packages/snap"
   dependencies:
-    "@chainsafe/metamask-polkadot-types": "workspace:^"
+    "@chainsafe/metamask-polkadot-types": 
     "@metamask/key-tree": ^9.0.0
     "@metamask/snaps-cli": ^1.0.2
     "@metamask/snaps-types": ^1.0.2
@@ -8626,8 +8626,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example@workspace:packages/example"
   dependencies:
-    "@chainsafe/metamask-polkadot-adapter": "workspace:^"
-    "@chainsafe/metamask-polkadot-types": "workspace:^"
+    "@chainsafe/metamask-polkadot-adapter": 
+    "@chainsafe/metamask-polkadot-types": 
     "@material-ui/core": ^4.12.4
     "@material-ui/icons": ^4.11.3
     "@material-ui/lab": latest
